@@ -1,0 +1,321 @@
+@charset "UTF-8";
+/* CSS Document */
+@media screen and (max-width: 799px){
+	
+*{
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: header;
+	src: url("style/rocket_wildness/ROCKET WILDNESS.woff");
+}
+@font-face{
+	font-family: paragraph;
+	src: url("style/Kiona/fonts/Kiona-Regular.woff");
+}
+	
+body{
+	background-image: url("images/pinkheadphones.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgba(221,153,154,1.00);
+	background-blend-mode:multiply;
+	background-attachment: fixed;
+	
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	background-color: transparent;
+	background-image: none;
+}
+
+.title{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.title h1{
+	font-size: 50px;	
+}
+
+h1{
+	font-family: header;
+	text-align: center;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+h3, h2, p{
+	font-family: paragraph;
+	text-align: center;
+}
+
+
+.js-questions{
+	margin-top: 0;
+	margin-bottom: 5%;
+	border: 2px solid rgba(221,153,154,0.51);
+	background-color: rgba(221,153,154,0.51);
+}
+
+.js-answers{
+	align-self: center;
+	border: 2px solid rgba(221,153,154,0.51);
+	background-color: rgba(221,153,154,0.51);
+
+}
+	
+.js-response{
+	display: none;
+	width: 50%;
+	margin-top: 5%;
+	margin-bottom: -5%;
+	text-align: center;
+	font-family: paragraph;
+	font-size: 20px;
+	border: 1px solid rgba(225,167,168,1.00);
+	background-color: rgba(221,153,154,0.50); 
+}
+	
+button{
+	font-family: paragraph;
+	font-size: 20px;
+	border: 1px solid rgba(255,190,187,1.00);
+	background-color: rgba(221,153,154,0.51);
+	margin-right: auto;
+	margin-left: auto;
+}
+
+button:hover{
+	cursor: pointer;
+	color: white;
+	background-color: rgba(249,204,206,0.89);
+}
+
+#js-next{
+	margin-top: 10%;		
+}
+	
+#js-submit-answer{
+	margin-top: 10%;
+}
+	
+.playContainer{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-top: 20%;
+	
+}
+
+legend, label{
+	font-family: paragraph;
+	text-align: center;
+}
+
+legend{
+	font-size: 20px;
+}
+
+label{
+	font-size: 20px;
+}
+#js-quiz-form{
+	display: none;
+	flex-direction: column;
+	alight-content: center;
+	margin-top: 10%;
+	
+}
+
+.js-final-score{
+	display: none;
+	width: 50%;
+	margin: 15% auto 0 auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: rgba(221,153,154,0.51);
+}
+
+.js-number{
+	margin-top: 2%;
+	padding: 0;
+}
+	
+}
+
+
+
+
+/* Computer/iPad */
+@media screen and (min-width: 800px){
+*{
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: header;
+	src: url("style/rocket_wildness/ROCKET WILDNESS.woff");
+}
+@font-face{
+	font-family: paragraph;
+	src: url("style/Kiona/fonts/Kiona-Regular.woff");
+}
+body{
+	background-image: url("images/pinkheadphones.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgba(221,153,154,1.00);
+	background-blend-mode:multiply;
+	background-attachment: fixed;
+	
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	background-image: none;
+}
+
+.title{
+	margin-top: 10%;
+	text-align: center;
+	font-size: 50px;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1{
+	font-family: header;
+	margin: 0;
+	padding: 0;
+}
+
+h3, h2, p{
+	font-family: paragraph;
+	text-align: center;
+}
+
+
+.js-questions{
+	width: 800px;
+	height: auto;
+	align-self: center;
+	margin-top: 0;
+	margin-bottom: 5%;
+	border: 2px solid rgba(221,153,154,0.51);
+	background-color: rgba(221,153,154,0.51);
+}
+
+.js-answers{
+	position: relative;
+	text-align: left;
+	width: 50%;
+}
+.js-response{
+	display: none;
+	text-align: center;
+	font-family: paragraph;
+	width: 30%;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: -90px;
+	border: 1px solid rgba(225,167,168,1.00);
+	background-color: rgba(221,153,154,0.90); 
+}
+
+
+button{
+	font-family: paragraph;
+	font-size: 20px;
+	border: 1px solid rgba(255,190,187,1.00);
+	background-color: rgba(221,153,154,0.51);
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5%;
+}
+
+button:hover{
+	cursor: pointer;
+	color: white;
+	background-color: rgba(249,204,206,0.89);
+}
+
+#js-submit-answer{
+	align-self: center;
+}
+
+	#js-play{
+		margin-top: 0;
+	}
+.playContainer{
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	font-size: 35px;
+	
+}
+
+legend, label{
+	font-family: paragraph;
+	text-align: center;
+}
+
+legend{
+	font-size: 30px;
+}
+
+label{
+	font-size: 20px;
+}
+	
+#js-quiz-form{
+	display: none;
+	flex-direction: column;
+	alight-content: center;
+	margin-top: 10%;
+	
+}
+
+.js-final-score{
+	display: none;
+	text-align: center;
+	width: 40%;
+	margin: 10% auto 0 auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: rgba(221,153,154,0.51);
+}
+
+img{
+	float: right;
+	width: 300px;
+	height: 300px;
+	margin-top: -15%;
+	margin-right: 5%;
+}
+
+.js-number{
+	margin-top: 2%;
+	padding: 0;
+}
+}
