@@ -158,7 +158,7 @@ function renderAnswers(index){
 }
 
 //submit answer listening
-$("#js-submit-answer").on("submit", function(e){
+$("#js-submit-answer").on("click", function(e){
 	
 	$('.radioInput').prop("disabled", true);
 
@@ -197,7 +197,7 @@ function displayResponse(i, res){
 
 }
 						  
-$("#js-next").on("submit", function(e){
+$("#js-next").on("click", function(e){
 	
 	//display picture if on computer not mobile
 	if($(window).width() > 599){
